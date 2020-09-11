@@ -53,10 +53,10 @@ header {
   border: 1px solid #fff;
   color: #fff;
   margin-left: 20px;
-  transition: background-color 0.3s;
+  transition: background-color 1s;
 }
 
-.nav a .active,
+.nav a.active,
 .nav a:hover {
   background: #fff;
   color: #333;
@@ -70,7 +70,7 @@ header {
       rgba(157, 178, 202, 0.23) 19.68%,
       rgba(255, 255, 255, 0.33) 99.27%
     ),
-    url(./slide_01.jpg);
+    url("./imges/slide_01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -88,7 +88,7 @@ header {
 
 .slide-text h2 {
   font-size: 84px;
-  margin-bottom: 46px;
+  margin-bottom: 36px;
   font-weight: 700;
 }
 
